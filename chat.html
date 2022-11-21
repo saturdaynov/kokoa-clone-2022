@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Goo woong</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-xl"></i></span>
+        <span><i class="fas fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, November 21, 2022</div>
+
+      <div class="message-row">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA2MTZfMTQ1%2FMDAxNjU1MzE5MTQ5MjQx.lm60agNdtLYx5RiFWZuBk2fbbdvtEZMU9LQRn3Ci7HUg.Io9wm9mz-WJQPFlFZuEkLzaqUHZYXg1yeWPiKEoCuqEg.JPEG.s1091%2FReposta%25A3%25DF243636655%25A3%25DF208463147904037%25A3%25DF1561211836552301917%25A3%25DFnjpg.jpg&type=sc960_832"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">Goo Woong</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi nice to meet you!</span>
+            <span class="message_time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e1170c3dc0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
